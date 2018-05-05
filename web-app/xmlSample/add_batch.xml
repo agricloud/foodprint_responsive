@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FoodTrace>
+    <!-- service tag -->
+    <Action>add_batch_product</Action>
+    <MessageId>6dacd181-abef-4d05-8ee5-89e27cbef1ef</MessageId>
+
+    <LotInformation>
+        <!-- site -->
+        <CompanyId>99999999 (成品廠商統一編號)</CompanyId>
+        <UploaderAccount>peck(加工食品業者 account)</UploaderAccount>
+
+        <!-- item -->
+        <ProductId>4170088451018(成品產品 ID)</ProductId>
+
+
+
+
+        <!-- batch -->
+        <LotNumber>1</LotNumber>
+        <InStoreMarking/>
+        <ProducerId/>
+        <InspectMethod>1(檢驗方式)</InspectMethod>
+        <ManufactureDate>2013-07-15(製造日期)</ManufactureDate>
+        <ExpirationDate>2013-12-15(有效日期)</ExpirationDate>
+
+        <!-- 資料收集 成品檢驗報告集 -->
+        <ProductInspectionFileList>
+            <ProductInspectionFile>product.pdf</ProductInspectionFile>
+            <ProductInspectionLab>SGS 實驗室</ProductInspectionLab>
+            <ProductInspectionStatus>合格</ProductInspectionStatus>
+        </ProductInspectionFileList>
+
+        <!-- 資料收集 檢驗紀錄集 -->
+        <Ccps>
+            <Ccp>
+                <ItemName>糖度(成品管制項目名稱)</ItemName>
+                <LowerReferenceLimit>8.4(基準值下限)</LowerReferenceLimit>
+                <UpperReferenceLimit>8.8(基準值上限)</UpperReferenceLimit>
+                <CcpValue>8.6(實際值)</CcpValue>
+                <CcpUnit>(單位)</CcpUnit>
+            </Ccp>
+        </Ccps>
+
+        <!-- 原料資訊集 所使用的批號資料-->
+        <Sources>
+            <SourceItem>
+            	<!-- item -->
+                <SourceId>P22222223(原物料 ID)</SourceId>
+                <SupplierId>22222222(供應商統一編號)</SupplierId>
+                <TGapTraceCode>(農委會產銷履歷編號)</TGapTraceCode>
+                <ImportLicenseNo>(進口編號)</ImportLicenseNo>
+                <InspectMethod>3(檢驗方式)</InspectMethod>
+                <ManufactureDate>2010-09-15(製造日期)</ManufactureDate>
+                <ExpirationDate>2011-09-15(有效日期)</ExpirationDate>
+
+
+				<!-- batch -->
+                <LotNumber>1</LotNumber>￼￼￼￼￼
+                <SourceOrigin>台灣-屏東</SourceOrigin>
+                <SourceCertification></SourceCertification>
+                <IsPublic>1</IsPublic>
+
+                <SourceInspectionFileList>
+                    <SourceInspectionFile>Source.pdf</SourceInspectionFile>
+                    <SourceIngredientsInspectionLab>SGS 實驗室</SourceIngredientsInspectionLab>
+                    <SourceIngredientsInspectionStatus>合格</SourceIngredientsInspectionStatus>
+                </SourceInspectionFileList>
+
+                <SourceCcps>
+                    <SourceCcp>
+                        <ItemName/>
+                        <LowerReferenceLimit/>
+                        <UpperReferenceLimit/>
+                        <CcpValue/>
+                        <CcpUnit/>
+                    </SourceCcp>
+                </SourceCcps>
+
+            </SourceItem>
+            <SourceItem>
+
+                <SourceId>P11111112 (原物料 ID)</SourceId>
+                <SupplierId>11111111(供應商統一編號)</SupplierId>
+                <TGapTraceCode>(農委會產銷履歷編號)</TGapTraceCode>
+                <ImportLicenseNo>(進口編號)</ImportLicenseNo>
+                <InspectMethod>2(檢驗方式)</InspectMethod>
+                <ManufactureDate>2010-07-15(製造日期)</ManufactureDate>
+                <ExpirationDate>2012-07-15(有效日期)</ExpirationDate>
+                <LotNumber>1</LotNumber>
+                <SourceOrigin>台灣-台南</SourceOrigin>
+                <SourceCertification>GMP,HACCP</SourceCertification>
+                <IsPublic>1</IsPublic>
+
+                <SourceInspectionFileList>
+                    <SourceInspectionFile>Source2.pdf</SourceInspectionFile>
+                    <SourceIngredientsInspectionLab>SGS 實驗室</SourceIngredientsInspectionLab>
+                    <SourceIngredientsInspectionStatus>合格</SourceIngredientsInspectionStatus>
+                </SourceInspectionFileList>
+                ￼￼￼
+            </SourceItem>
+
+        </Sources>
+		
+		<!-- 追溯資訊 -->
+        <TraceabilityRelations>
+            <ParentProductID>4170088451018</ParentProductID>
+            <IngredientsID>P22222223</IngredientsID>
+            <IngredientsID>P11111112</IngredientsID>
+            <IngredientsID>衛署添製字號第 8888889 號</IngredientsID>
+        </TraceabilityRelations>
+
+    </LotInformation>
+</FoodTrace>

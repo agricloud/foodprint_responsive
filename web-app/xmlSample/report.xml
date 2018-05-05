@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <form>
+    <field label="品號">410002</field>
+    <field label="品名">華珍玉米</field>
+    <field label="規格">華珍甜玉米，高糖分、皮薄</field>
+    <field label="庫存單位">kg</field>
+    <field label="商品描述">非基因轉殖品種&#xD;
+(Non-Genetically Modifie)&#xD;
+生長強健，特別耐熱、耐濕及抗倒伏，抗病毒病、葉斑病、螟蟲，&#xD;
+果穗整齊飽滿，著粒完整，穗粒淡黃色，&#xD;
+皮非常薄(有無皮的感覺)，脆嫩香甜，品質非常優良。&#xD;
+糖分保持力較長，較耐貯運。</field>
+    <field label="零售價含稅">0.000000</field>
+    <field label="圖片">img/corn/410002.jpg</field>
+    <field label="單位淨重">0.000000</field>
+    <field label="生產線">001</field>
+  </form>
+  <tabs>
+    <tab title="原料履歷">
+      <table description="">
+        <head>
+          <column>類型</column>
+          <column>品名</column>
+          <column>品號</column>
+          <column>規格</column>
+          <column>供應商</column>
+          <column>簡稱</column>
+          <column>國家代號</column>
+          <column>國家簡稱</column>
+          <column>圖片</column>
+          <column>單別</column>
+          <column>單號</column>
+          <column>序號</column>
+          <column>筆數</column>
+          <column>商品描述</column>
+        </head>
+      </table>
+      <detail>
+        <row>
+          <cell>進貨</cell>
+          <cell>芝麻有機肥</cell>
+          <cell>21006</cell>
+          <cell>高氮肥</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/21006.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0001</cell>
+          <cell>7</cell>
+          <cell>芝麻有機肥(Sesame Meal)為芝麻提油後之副產品，&#xD;
+有黑白兩種，前者成品為黑色，後者成品為黃褐色。&#xD;
+芝麻油分可增加製粒潤滑度、含高氮肥，高價肥料。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>黃豆有機肥</cell>
+          <cell>21007</cell>
+          <cell>高蛋白、氮肥、胺基酸</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/21007.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0002</cell>
+          <cell>a</cell>
+          <cell>黃豆有機肥(Soybean meal)&#xD;
+為黃豆經萃取或壓榨提油後之副產品。&#xD;
+經溶劑萃取的大豆粕俗稱黃豆粉，&#xD;
+黃褐色、水分與油脂含量高，適用於任何土壤。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>米糠有機肥</cell>
+          <cell>21008</cell>
+          <cell>高磷酸、鎂、碳氧</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/21008.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0003</cell>
+          <cell>a</cell>
+          <cell>米糠有機肥(Rice Bran)&#xD;
+糙米精緻過程中所脫除之果皮層，&#xD;
+種皮層級胚芽等混合物稱之全米。&#xD;
+本省習慣上將全脂米糠稱為青糠。&#xD;
+無發酵腐敗、無異味，植物渣粕肥料。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>蘇力菌</cell>
+          <cell>21010</cell>
+          <cell>孢子、毒蛋白</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/21010.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0004</cell>
+          <cell>a</cell>
+          <cell>蘇力菌（Bacillus thuringiensis）&#xD;
+為目前廣泛使用的微生物殺蟲劑，&#xD;
+可以使多種害蟲致病。&#xD;
+應存放於陰涼處。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>玉米包材</cell>
+          <cell>31001</cell>
+          <cell>環保包材</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/31001.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0005</cell>
+          <cell>a</cell>
+          <cell>可自然生物分解，無毒、無害且具備環保功能。&#xD;
+可回收再製、堆肥、掩埋、焚化，使資源能夠回收再利用。&#xD;
+減少二氧化碳的生成，達到節能減碳的作用。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>條碼標籤</cell>
+          <cell>31002</cell>
+          <cell>POS系統感熱貼紙</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/31002.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0006</cell>
+          <cell>a</cell>
+          <cell>便於管控物品，減少人為輸入失誤。</cell>
+        </row>
+        <row>
+          <cell>進貨</cell>
+          <cell>華珍玉米種子</cell>
+          <cell>320002</cell>
+          <cell>華珍甜玉米(Non-GMO)</cell>
+          <cell>FJ01</cell>
+          <cell>福智麻園</cell>
+          <cell>TAIWAN</cell>
+          <cell>台灣</cell>
+          <cell>
+            <img src="img/corn/320002.jpg" />
+          </cell>
+          <cell>B21</cell>
+          <cell>98100900001</cell>
+          <cell>0007</cell>
+          <cell>a</cell>
+          <cell>穗粒鮮黃的超甜玉米，穗粒皮薄嫩，品質佳。</cell>
+        </row>
+      </detail>
+    </tab>
+    <tab title="耕種履歷">
+      <table description="">
+        <head>
+          <column>製程名稱</column>
+          <column>開始日期</column>
+          <column>結束日期</column>
+          <column>人員</column>
+          <column>生產線</column>
+          <column>製程描述</column>
+          <column>製程代號</column>
+          <column>圖檔路徑</column>
+        </head>
+      </table>
+      <detail>
+        <row>
+          <cell>整地</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>翻鬆土壤</cell>
+          <cell>001---001</cell>
+          <cell>
+            <img src="../upload/process/001---001/001---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>播種</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>播種</cell>
+          <cell>003---001</cell>
+          <cell>
+            <img src="../upload/process/003---001/003---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>施肥</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>施灑肥料</cell>
+          <cell>002---001</cell>
+          <cell>
+            <img src="../upload/process/002---001/002---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>灌溉</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>灌溉</cell>
+          <cell>004---001</cell>
+          <cell>
+            <img src="../upload/process/004---001/004---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>間苗</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>間苗</cell>
+          <cell>006---001</cell>
+          <cell>
+            <img src="../upload/process/006---001/006---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>灌溉</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>灌溉</cell>
+          <cell>004---001</cell>
+          <cell>
+            <img src="../upload/process/004---001/004---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>間苗</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>間苗</cell>
+          <cell>006---001</cell>
+          <cell>
+            <img src="../upload/process/006---001/006---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>施肥</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>施灑肥料</cell>
+          <cell>002---001</cell>
+          <cell>
+            <img src="../upload/process/002---001/002---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>中耕除草</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>除雜草</cell>
+          <cell>007---001</cell>
+          <cell>
+            <img src="../upload/process/007---001/007---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>灌溉</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>灌溉</cell>
+          <cell>004---001</cell>
+          <cell>
+            <img src="../upload/process/004---001/004---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>病蟲害防治</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>病蟲害防治</cell>
+          <cell>005---001</cell>
+          <cell>
+            <img src="../upload/process/005---001/005---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>採收</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>民雄線A</cell>
+          <cell>採收</cell>
+          <cell>008---001</cell>
+          <cell>
+            <img src="../upload/process/008---001/008---001.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗</cell>
+          <cell>2009/10/09</cell>
+          <cell>2009/10/09</cell>
+          <cell>GP002</cell>
+          <cell>慈心有機</cell>
+          <cell>託外檢驗</cell>
+          <cell>009---CX01</cell>
+          <cell>
+            <img src="../upload/process/009---CX01/009---CX01.jpg" />
+          </cell>
+        </row>
+      </detail>
+    </tab>
+    <tab title="檢驗履歷">
+      <table description="">
+        <head>
+          <column>檢驗項目</column>
+          <column>檢驗值</column>
+          <column>是否通過</column>
+          <column>最高標準</column>
+          <column>最低標準</column>
+          <column>檢驗日期</column>
+          <column>檢驗人員</column>
+          <column>檢驗描述</column>
+          <column>檢驗製程</column>
+          <column>檢驗代號</column>
+          <column>圖檔</column>
+        </head>
+      </table>
+      <detail>
+        <row>
+          <cell>檢驗汞</cell>
+          <cell>0</cell>
+          <cell>Y</cell>
+          <cell>0.002</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>檢測耕種農地土壤的汞含量是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>77</cell>
+          <cell>
+            <img src="img/inspection/77.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗甲基巴拉松</cell>
+          <cell>0.01</cell>
+          <cell>Y</cell>
+          <cell>0.01</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>採集玉米切片並檢驗農藥-甲基巴拉松殘留是否在規定標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>73</cell>
+          <cell>
+            <img src="img/inspection/73.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗砷</cell>
+          <cell>0.01</cell>
+          <cell>Y</cell>
+          <cell>0.05</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>檢測耕種農地土壤的砷含量是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>74</cell>
+          <cell>
+            <img src="img/inspection/74.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗鉻</cell>
+          <cell>0.01</cell>
+          <cell>Y</cell>
+          <cell>0.1</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>檢測耕種農地土壤的鉻含量是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>76</cell>
+          <cell>
+            <img src="img/inspection/76.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗歐殺松</cell>
+          <cell>0.03</cell>
+          <cell>Y</cell>
+          <cell>0.1</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>採集玉米切片並檢驗農藥-歐沙松殘留是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>71</cell>
+          <cell>
+            <img src="img/inspection/71.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗鎘</cell>
+          <cell>0.04</cell>
+          <cell>N</cell>
+          <cell>0.01</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>檢測耕種農地土壤的鎘含量是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>75</cell>
+          <cell>
+            <img src="img/inspection/75.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗乙基溴磷松</cell>
+          <cell>0.1</cell>
+          <cell>N</cell>
+          <cell>0.03</cell>
+          <cell>0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>採集玉米切片並檢驗農藥-乙基溴磷松殘留是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>72</cell>
+          <cell>
+            <img src="img/inspection/72.jpg" />
+          </cell>
+        </row>
+        <row>
+          <cell>檢驗酸鹼度</cell>
+          <cell>6.7</cell>
+          <cell>Y</cell>
+          <cell>9.0</cell>
+          <cell>6.0</cell>
+          <cell>20091009</cell>
+          <cell>GP002</cell>
+          <cell>檢測耕種農地水質的酸鹼度是否在標準值內</cell>
+          <cell>檢驗</cell>
+          <cell>78</cell>
+          <cell>
+            <img src="img/inspection/78.jpg" />
+          </cell>
+        </row>
+      </detail>
+    </tab>
+  </tabs>
+</root>
+

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ font-family:Arial, Helvetica, sans-serif; height:100%; background:url(../images/login-bg.jpg) repeat;}
+
+/*
+ * Splash
+ */
+
+.splash .main{padding-top:70px; text-align:center;  height:100%;}
+.loading{ margin: 50px auto 100px auto; width:150px; text-align:center;}
+.frame{ background:url(../images/loading-frame.png) no-repeat; width:104px; height:139px; position:relative; margin: 80px auto 0 auto;}
+.frame .percent{color:#502916; position:absolute; top: 50px; left: 35px;}
+.frame .loading-img{position:absolute; top: 70px; left: 30px; width: 45px;}
+.loading span{ color:#502916; font-size:12px;}
+.agri-logo{width:130px;}
+
+.splash .font-999{font-size:13px;}
+.splash .font-555{letter-spacing:3px;}
+.splash .font-555 small{color:#638c0b; font-size:10px; position:relative; top:-2px; letter-spacing:0;}
+
+
+.font-555{color:#555;}
+.font-999{color:#999;}
+.copyright-wrapper{position:absolute; bottom:50px; width:100%;}
+.copyright{font-size:10px;  margin:0 auto;}
+
+
+
+
+
+
+/*
+ * Header
+ */
+
+header{width:100%; background:url(../images/header-bg.jpg) repeat-x; height:70px; background-size: contain;}
+header .top-slogan img{width:350px; margin-top:7px; float:right; margin-right:10px;}
+header .signature {float:right; margin:10px 10px 0 0; clear:both;}
+header .signature img{width:70px;}
+
+.login-bg{ background:url(../images/login-bg.jpg) repeat; }
+
+.logo{
+	margin:0 auto;
+	width:166px;
+	position:relative;
+	top:50px;
+}
+.login-box{
+	background-color:#fff;
+	border: 2px solid #d7d7d7;
+	border-radius:5px;
+	width:300px;
+	margin: 50px auto 40px auto;
+	position:relative;
+	top:10px;
+}
+.login-box .top span img{width:20px;}
+.login-box .bottom-bar{height:15px;}
+
+
+
+.main{background: -moz-linear-gradient(top, rgba(208,220,225,0.5) 0%, rgba(255,255,255,0) 40%, rgba(0,0,0,0) 100%), url(../images/login-bg.jpg) repeat;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(208,220,225,0.5)), color-stop(40%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0))), url(../images/login-bg.jpg) no-repeat;
+background: -webkit-linear-gradient(top, rgba(208,220,225,0.5) 0%,rgba(255,255,255,0) 40%,rgba(0,0,0,0) 100%), url(../images/login-bg.jpg) no-repeat;
+background: -o-linear-gradient(top, rgba(208,220,225,0.5) 0%,rgba(255,255,255,0) 40%,rgba(0,0,0,0) 100%), url(../images/login-bg.jpg) no-repeat;
+background: -ms-linear-gradient(top, rgba(208,220,225,0.5) 0%,rgba(255,255,255,0) 40%,rgba(0,0,0,0) 100%), url(../images/login-bg.jpg) no-repeat;
+background: linear-gradient(to bottom, rgba(208,220,225,0.5) 0%,rgba(255,255,255,0) 40%,rgba(0,0,0,0) 100%), url(../images/login-bg.jpg) no-repeat;}
+
+body.splash{
+	background:url(../images/login-bg.jpg) repeat;
+	}
+
+.copyright{ color:#838383; line-height:1.6em;}
+
+footer{ position:absolute; bottom:0;  width:100%;}
+footer .left-trees{float:left; width:100px; position:relative; top:13px; }
+footer .left-trees img{max-width:100%;}
+footer .btn-fb{float:right; margin-right:30px;}
+footer .right-slogan{float:right; position:relative; top:35px; margin-right:10px;color:#303030;}
+footer .bar{ background:url(../images/footer-bg.jpg) repeat-x; height:25px; clear:both;}
+
+@media screen and (max-width: 580px) {
+	.splash .main{padding-top:0px; text-align:center; min-height:500px;}
+	.splash .logo{top:30px;}
+	.foodprint-board{width:120px;}
+	.frame{ width:80px; height:110px; background-size:contain;}
+	.frame .percent{ top: 40px; left: 25px;}
+	.frame .loading-img { top: 55px; left: 21px; width:40px;}
+	.splash .font-555{font-size:11px;}
+	.splash .font-999{font-size:9px;}
+	.splash .font-555 small{font-size:8px;}
+	.loading{margin-bottom:50px; margin-top:-40px;}
+	.loading span{font-size:9px;}
+	
+	.agri-logo{width:100px;}
+	.copyright{font-size:6px;}
+	.copyright-wrapper{bottom:0;}
+	
+	header .top-slogan {text-align:center;}
+	header .top-slogan img{float:none; margin:7px auto 0 auto; width:260px;}
+	header .signature{margin-top:17px;}
+	.login-box{width:280px; margin-bottom:80px;}
+	.login-box .info{width:240px;}
+	.login-bg footer{position:relative;}
+	a.forgot{font-size:10px;}
+	footer .btn-fb, footer .right-slogan {display:none;}
+	footer .left-trees{top:2px; margin:0 auto; float:none;}
+	
+	
+}
+
+
+@media screen and (max-width: 400px) {
+	.splash .main{padding-top:0px; text-align:center; min-height:500px;}
+	.splash .logo{top:30px;}
+	.foodprint-board{width:120px;}
+	.frame{ width:80px; height:110px; background-size:contain;}
+	.frame .percent{ top: 40px; left: 25px;}
+	.frame .loading-img { top: 55px; left: 21px;}
+	.splash .font-555{font-size:11px;}
+	.splash .font-999{font-size:9px;}
+	.splash .font-555 small{font-size:8px;}
+	.loading{margin-bottom:50px; margin-top:-40px;}
+	a.forgot{font-size:10px;}
+	
+	.agri-logo{width:100px;}
+	.copyright{font-size:9px;}
+	
+	a.forgot{font-size:9px;}
+	footer .left-trees{top:2px; margin:0 auto;}
+	
+	
+}

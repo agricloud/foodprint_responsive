@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<FoodTrace>
+
+    <!-- service tag -->
+    <Action>add_product</Action>
+    <MessageId>6dacd181-abef-4d05-8ee5-89e27cbef1ef</MessageId>
+
+    <!-- site -->
+    <CompanyAccount>peck</CompanyAccount>
+    <CompanyId>99999999</CompanyId>
+    <CompanyName>統 x 食品股份有限公司</CompanyName>
+
+    <!-- item -->
+    <ItemIdType>GS1</ItemIdType>
+    <ItemId>4170088451018</ItemId>
+    <FoodType>26</FoodType>
+    <ItemName>四物雞精</ItemName>
+    <AliasName>統 x 四物雞精</AliasName>
+    <Origin>台灣</Origin>
+    <Certification>TRACE,ISO22000,HACCP, HEALTH,GMP</Certification>
+    <ItemFeature>品質天然,風味絕佳</ItemFeature>
+
+    <!-- 暫時忽略 -->
+    <Dietician>學校團膳業者必填</Dietician>
+    <Grains>學校團膳業者必填</Grains>
+    <Vegetables>學校團膳業者必填</Vegetables>
+    <Oils>學校團膳業者必填</Oils>
+    <MeatBeans>學校團膳業者必填</MeatBeans>
+    <Fruits>學校團膳業者必填</Fruits>
+    <Milk>學校團膳業者必填</Milk>
+
+    <!-- 資料收集 營養標示履歷-->
+    <Pack>玻璃瓶[60 毫升/62g]</Pack>
+    <Allergen/>
+    <StorageTemperature/>
+    <PerServing>60</PerServing>
+    <PackageCapacity>1</PackageCapacity>
+    <ItemImage>productImg.jpg</ItemImage>
+    <Calories>18</Calories>
+    <Protein>4</Protein>
+    <TotalFat>0</TotalFat>
+    <SatFat>0</SatFat>
+    <TransFat>0</TransFat>
+    <Carbohydrate>0.5</Carbohydrate>
+    <Sodium>114</Sodium>
+    <OtherNutritions/>
+
+
+</FoodTrace>

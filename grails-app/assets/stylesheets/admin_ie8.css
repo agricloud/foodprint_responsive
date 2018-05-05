@@ -1,0 +1,167 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"微軟正黑體";
+	font-size : 12px;
+
+}
+
+a,a:link,a:active,a:visited {
+	text-decoration:underline;
+	font-family: Arial, Helvetica, sans-serif;
+	color : #333;
+	font-size:12px;
+	text-decoration:none;
+}
+
+a:hover	{
+	text-decoration:underline;
+	color : #006699;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+
+
+/*Tina*/
+.wrapper{
+	margin:0 auto;
+	width:100%;
+}
+
+
+.logo{
+	margin:0 auto;
+	width:166px;
+	position:relative;
+	top:50px;
+}
+.login-box{
+	background-color:#fff;
+	border: 2px solid #d7d7d7;
+	border-radius:5px;
+	width:300px;
+	margin: 50px auto 40px auto;
+	position:relative;
+	top:20px;
+}
+.login-box .top{
+	background-color:#dbdbdb;
+	width:100%;
+	padding:7px 0;
+	font-size:15px;
+	text-align:center;
+	color:#555;
+	line-height: 22px;
+}
+.login-box .top span{
+	margin-right:5px;
+}
+.login-box .info{
+	background-color:#d3eaf6;
+	border: 1px solid #48afd9;
+	border-radius:5px;
+	width:260px;
+	height:30px;
+	color:#029ed1;
+	margin:10px auto;
+	text-align: center;
+	padding: 7px;
+	line-height: 30px;
+}
+.login-box .login-input{
+	background:url(../images/login-input.gif) no-repeat;
+	width:201px;
+	height:59px;
+	margin:0 auto;
+}
+.login-box .login-input input{
+	background-color:none;
+	border:none;
+	width: 167px;
+	height: 20px;
+	margin-bottom:10px;
+	padding-left:5px;
+	outline:0;
+	background: transparent;
+	}
+.login-box .login-input input#system_user{ 
+    left: 10px;
+    position: relative;
+    top: 2px;
+	left:25px;
+}
+.login-box .login-input input#system_pass{
+	left: 10px;
+    position: relative;
+    top: 0px;
+	left:25px;
+}
+.login-box .remember{
+	position:relative;
+	left:47px;
+	top:5px;
+	width:200px;
+	color:#777;
+	line-height: 25px;
+}
+.login-box .bottom-bar{
+	background-color:#f6f6f6;
+	border-top:1px solid #eee;
+	padding: 15px 10px;
+	margin-top:20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.login-box .bottom-bar .buttons{
+	float:right;
+	position:relative;
+	top:-5px;
+}
+.login-box .bottom-bar a{color:#48afd9;}
+.login-box button.btn-log,
+.login-box input[type="submit"],
+.login-box input[type="reset"]{
+	background-color:#000;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color:#fff;
+	border:1px solid #000;
+	cursor:pointer;
+	padding:3px 5px;
+	width:50px;
+}
+footer{
+	color:#333;
+	padding-top:0px;
+}
+.member-logout{
+	position:absolute;
+	right:10px;
+	color:#fff;
+}
+input.logout{
+	background:url(../images/btn-logout.png) no-repeat;
+	width:63px;
+	height:22px;
+	cursor:pointer;
+	border:none;
+	backgronud-color:none;
+}
+.style1{
+	color:#777;
+}
+.user-info{
+	position:relative;
+	top:10px;
+}
+.icon-location{
+	position:absolute;
+	margin-top:-15px;
+	margin-left:10px;
+}
