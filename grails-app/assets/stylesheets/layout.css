@@ -8,7 +8,10 @@ body{ background:url(../images/body_bg.jpg) repeat;}
 /*
  * Header
  */
-header{ background:url(../images/header_bg.jpg) no-repeat 50%; height:130px; background-size: 100%; }
+header {
+	background: url(../images/header_bg.jpg) repeat;
+	height: 130px;
+}
 header .container{position:relative;}
 header .logo{text-align:center;}
 header .logo img{width:250px; margin-top:9px;}
@@ -288,22 +291,32 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 .search .input-group .open .dropdown-toggle.btn-default{ border-color:#d0d0d0;}
 .font-green{color:#9ed30c;}
 .font-red{color:#d81900;}
+@media only screen and (max-width: 2560px) {
+	header {
+		background: url(../images/header_bg.jpg) repeat;
+		height: 130px;
+
+	}
+}
 @media only screen and (max-width: 1200px) {
-	
+	nav .pc {
+		max-width: 1000px;
+	}
 	.bottomnav .contact{position:absolute; top:35px; left:0; padding:0;}
 	.bottomnav .contact .mail{clear:both; }
 	.bottomnav .col-md-6.pagination-wrap{ float:right;width:450px;}
 	.bottomnav .col-md-6.pagination-wrap a{min-width:40px; min-height:20px; text-align:center; line-height:20px; margin:0 3px;}
-	
-}
-@media only screen and (max-width: 1199px) {
-	nav a{ width:100px; height:115px; overflow:hidden; float:left; margin:0 2px;}
-}
-@media only screen and (max-width: 1001px) {
-	header .top-slogan{display:none;}
+	/* nav a {
+		width: 100px;
+		overflow: hidden;
+		float: left;
+		margin: 0 2px;
+	} */
 }
 
+
 @media only screen and (max-width: 1000px) {
+
 	header .top-slogan{display:none;}
 	header .foodprint-board{display:none;}
 	header .foodprint{display:block; float:left; color:#fff; margin-top:5px;}
@@ -334,7 +347,11 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	nav .pc{display:none;}
 	nav .phone{display:block; padding-top:13px; height:80px;}
 	nav .phone .dashline{ top:80px;}
-	nav{ background:url(../images/body_bg.jpg) repeat; }
+	nav{ 
+		background:url(../images/body_bg.jpg) repeat; 
+		margin: 12px auto 10px auto;
+		
+	}
 	nav .wrap{margin: 0 auto; width:550px;}
 	
 	nav img{width:50px;}
@@ -407,7 +424,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 		background:url(../images/icon-table.png) no-repeat left center;
 		background-size:20px;
 	}
- 
+	
 	/*
 	Label the data
 	*/
@@ -419,7 +436,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 
  
 @media screen and (max-width: 580px) {
-	nav .wrap{margin: 0 auto; width:420px;}
+	/* nav .wrap{margin: 0 auto; width:420px;}
 	nav a{ width:50px; height:70px; overflow:hidden; float:left; margin:0 10px; color:#8a8a8a; text-decoration:none;}
   header .foodprint img{width:120px; float:left; margin-top:5px;}
   header .foodprint small{display:block; float:left;}
@@ -439,7 +456,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
   .bottomele .btn-fb{right:0 !important; left:auto; top:-20px;}
   .bottomele .box, .bottomele .right-tree, .bottomele .trees-left{display:none;}
   .bottomele .signature{position:absolute;width:90px; top:13px; right:60px; display:block;}
-  
+   */
   .table-style tr td{padding: 0 5px;}
   .table-style tr td:nth-child(1){width:50px;}
   .table-style tr td:nth-child(2){width:30px;}
