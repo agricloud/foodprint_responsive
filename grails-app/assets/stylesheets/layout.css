@@ -30,7 +30,7 @@ nav .pc{display:block; margin:0 auto;}
 nav .phone{display:none;}
 nav{margin:15px auto 10px auto; z-index:1000; position:relative; width:1000px;}
 nav img{width:115px;}
-nav a:hover img{position:relative; top:-48px;}
+nav a:hover img{position:relative; top:-35px;}
 nav a{ width:140px; height:30px; overflow:hidden; float:left; margin:0 10px;}
 
 
@@ -44,7 +44,7 @@ nav a{ width:140px; height:30px; overflow:hidden; float:left; margin:0 10px;}
 .content h2.heading{background-color:#3b3b3b; width:100%; color:#fff; font-size:15px; margin:0; padding:10px;}
 */
 .content h2.heading{background:url(../images/bar.png) center no-repeat; background-size: 100%; width:100%; color:#fff; font-size:15px; margin:0; padding:10px;}
-.content .right-icon{position:absolute; right:5px; top:10px; background:url(../images/right-icon.jpg) right center no-repeat; padding-right:25px; color:#fff; font-size:11px;}
+.content .right-icon{position:absolute; right:5px; top:10px; background:url(../images/right-icon.png) right center no-repeat; background-size: 32%; padding-right:25px; color:#fff; font-size:11px;}
 
 .search{margin:10px 0; padding-left: 50px; height: 41px;}
 .search .text{line-height:1.5em; color:#001423; position:relative; top:8px; margin-right:5px;}
@@ -294,7 +294,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 @media only screen and (max-width: 2560px) {
 	header {
 		background: url(../images/header_bg.jpg) repeat;
-		height: 130px;
+		height: 140px;
 
 	}
 }

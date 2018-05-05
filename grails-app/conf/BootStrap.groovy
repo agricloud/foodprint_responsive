@@ -54,7 +54,7 @@ class BootStrap {
                 grailsApplication.config.grails.dev.site.activationCode = "b2fdbfd9-c465-4600-a794-9f3bdd58bce6"
 
                 
-                boolean generateTestData = true
+                boolean generateTestData = false
                 // def specifiedData = ["agri", "mfg"]
                 def specifiedData = ["agri"]
                 boolean createLoopData = false
