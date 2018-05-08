@@ -43,7 +43,7 @@ nav a{ width:140px; height:30px; overflow:hidden; float:left; margin:0 10px;}
 /*
 .content h2.heading{background-color:#3b3b3b; width:100%; color:#fff; font-size:15px; margin:0; padding:10px;}
 */
-.content h2.heading{background:url(../images/bar.png) center no-repeat; background-size: 100%; width:100%; color:#fff; font-size:15px; margin:0; padding:10px;}
+.content h2.heading{background:url(../images/bar.png) center no-repeat; width:100%; color:#fff; font-size:15px; margin:0; padding:10px;}
 .content .right-icon{position:absolute; right:5px; top:10px; background:url(../images/right-icon.png) right center no-repeat; background-size: 32%; padding-right:25px; color:#fff; font-size:11px;}
 
 .search{margin:10px 0; padding-left: 50px; height: 41px;}
@@ -329,9 +329,12 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	.bottomnav .col-md-6.pagination-wrap{float:right; position:absolute; right:0; margin-right:-15px;}
 	
 	.bottomele{margin-top:50px;}
-	.bottomele .btn-fb{position:absolute;width:70px; left:5%; top:-30px;}
+	.bottomele .btn-fb{right:0 !important; left:auto; top:-20px;}
 	.bottomele .box{position:absolute;width:200px; top:-50px; right:5%;}
 	.bottomele .trees-left{position:absolute; width:100px; top:-35px; left:200px;}
+
+	
+
 	
 	footer{margin-top:50px;}
 	
@@ -349,7 +352,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	nav .phone .dashline{ top:80px;}
 	nav{ 
 		background:url(../images/body_bg.jpg) repeat; 
-		margin: 12px auto 10px auto;
+		margin: 9px auto 10px auto;
 		
 	}
 	nav .wrap{margin: 0 auto; width:550px;}
@@ -362,11 +365,12 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	nav .menu{font-size:35px;text-align:center;}
 	nav a:hover,  nav a:focus,  nav a:active, nav a.current{text-decoration:none; color:#502916;}
   
-	
+	.content{margin:35px auto 0px; padding:0; float:none; background-color:#F5F5F5;}
 	h2.heading, .right-icon{display:block;}
 	.main.container{padding:0;}
 	.search{padding-left:30px;}
 	.search-row .dashline{display:none;}
+	.dashline{display:none;}
 	.main .row{margin-right:0;}
 	.box-shadow{box-shadow:none; border:none;}
 	
@@ -431,6 +435,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	#split-tables td:before { content: attr(data-title); }
 	
 	.bottomnav .col-md-6.pagination-wrap a{padding: 3px 9px; margin:0 0 0 2px;line-height: 1.428571429; min-height:0; min-width:0;}
+
 	
 }
 
@@ -445,18 +450,18 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
   header .logo small{display:none;}
 	
 	
-  
+  */
   .bottomnav .btn-download{top:90px;}
   .bottomnav .contact{width:100%; text-align:center; float:left; margin:0 auto; top:60px;}
   .bottomnav .contact a{float:none;}
   
   .bottomnav .logo-agri{display:block; position:absolute; top:105px; left:15px;}
-  
+   
   .bottomele, footer{margin-top:90px;}
   .bottomele .btn-fb{right:0 !important; left:auto; top:-20px;}
   .bottomele .box, .bottomele .right-tree, .bottomele .trees-left{display:none;}
   .bottomele .signature{position:absolute;width:90px; top:13px; right:60px; display:block;}
-   */
+  .dashline{display:none;}
   .table-style tr td{padding: 0 5px;}
   .table-style tr td:nth-child(1){width:50px;}
   .table-style tr td:nth-child(2){width:30px;}
@@ -469,7 +474,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	
 	nav .wrap{margin: 0 auto; width:350px;}
 	nav a{ width:50px; height:80px; overflow:hidden; float:left; margin:0 3px;}
-	
+	.dashline{display:none;}
    .bottomnav .contact{top:60px;}
    
    footer .text{margin-top:25px; font-size:10px;}
@@ -477,7 +482,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 }
 
 @media screen and (max-width: 350px) {
-	
+	.dashline{display:none;}
 	nav .wrap{margin: 0 auto; width:300px;}
 	nav a{ width:50px; height:80px; overflow:hidden; float:left; margin:0px;}
 }
