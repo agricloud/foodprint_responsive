@@ -322,6 +322,26 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	header .foodprint{display:block; float:left; color:#fff; margin-top:5px;}
 	header .foodprint small{display:none;}
 	header .right-slogan{color:#9a8c88; position:absolute; top:12px; right:0; margin:0; font-size:12px;}
+
+	nav{width:100%;}
+	nav .pc{display:none;}
+	nav .phone{display:block; padding-top:13px; height:80px;}
+	nav .phone .dashline{ top:80px;}
+	nav{ 
+		background:url(../images/body_bg.jpg) repeat; 
+		margin: 9px auto 10px auto;
+		
+	}
+	nav .wrap{margin: 0 auto; width:550px;}
+	
+	nav img{width:50px;}
+	nav a{ width:50px; height:70px; overflow:hidden; float:left; margin:0 20px; color:#8a8a8a; text-decoration:none;}
+	nav a span{font-size:12px; margin:0 auto; /* display:none; 如須隱藏選單下的文字,移除注解*/}
+	nav a:hover .mask img{position:relative; top:-52px;}
+	nav a .mask {width:50px; height:50px; overflow:hidden;}
+	nav .menu{font-size:35px;text-align:center;}
+	nav a:hover,  nav a:focus,  nav a:active, nav a.current{text-decoration:none; color:#502916;}
+	.dashline{display:none;}
 	
 	.search{padding-left:30px;}
 	.search .text{margin-right:10px;}
@@ -333,7 +353,7 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	.bottomele .box{position:absolute;width:200px; top:-50px; right:5%;}
 	.bottomele .trees-left{position:absolute; width:100px; top:-35px; left:200px;}
 
-	
+	.content{margin:35px auto 0px; padding:0; float:none; background-color:#F5F5F5;}
 
 	
 	footer{margin-top:50px;}
@@ -365,7 +385,6 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 	nav .menu{font-size:35px;text-align:center;}
 	nav a:hover,  nav a:focus,  nav a:active, nav a.current{text-decoration:none; color:#502916;}
   
-	.content{margin:35px auto 0px; padding:0; float:none; background-color:#F5F5F5;}
 	h2.heading, .right-icon{display:block;}
 	.main.container{padding:0;}
 	.search{padding-left:30px;}
@@ -441,32 +460,12 @@ footer .text{color:#efece9; margin-top:25px; font-size:11px;}
 
  
 @media screen and (max-width: 580px) {
-	/* nav .wrap{margin: 0 auto; width:420px;}
-	nav a{ width:50px; height:70px; overflow:hidden; float:left; margin:0 10px; color:#8a8a8a; text-decoration:none;}
-  header .foodprint img{width:120px; float:left; margin-top:5px;}
-  header .foodprint small{display:block; float:left;}
-  header .right-slogan{display:none;}
-  header .logo {position:absolute; right:0;}
-  header .logo small{display:none;}
-	
-	
-  */
-  .bottomnav .btn-download{top:90px;}
-  .bottomnav .contact{width:100%; text-align:center; float:left; margin:0 auto; top:60px;}
-  .bottomnav .contact a{float:none;}
-  
-  .bottomnav .logo-agri{display:block; position:absolute; top:105px; left:15px;}
+	nav .wrap{margin: 0 auto; width:350px;}
+	nav a{ width:50px; height:80px; overflow:hidden; float:left; margin:0 3px;}
+	.dashline{display:none;}
+   .bottomnav .contact{top:60px;}
    
-  .bottomele, footer{margin-top:90px;}
-  .bottomele .btn-fb{right:0 !important; left:auto; top:-20px;}
-  .bottomele .box, .bottomele .right-tree, .bottomele .trees-left{display:none;}
-  .bottomele .signature{position:absolute;width:90px; top:13px; right:60px; display:block;}
-  .dashline{display:none;}
-  .table-style tr td{padding: 0 5px;}
-  .table-style tr td:nth-child(1){width:50px;}
-  .table-style tr td:nth-child(2){width:30px;}
-  .table-style tr td:nth-child(3){width:30px;}
-  .table-style tr td:nth-child(4){width:50px;}
+   footer .text{margin-top:25px; font-size:10px;}
 
 }
 
